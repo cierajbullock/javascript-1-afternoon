@@ -125,7 +125,7 @@ function outerFn() {
   Now save the result of invoking outerFn into a variable called innerFn.
 */
 
-//Code Here
+let innerFn = outerFn();
 
 
 
@@ -133,4 +133,4 @@ function outerFn() {
   Now invoke innerFn.
 */
 
-// Code Here
+innerFn;
