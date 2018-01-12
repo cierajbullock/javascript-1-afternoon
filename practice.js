@@ -83,7 +83,9 @@ function welcome () {
   Create a function called myName that returns your name
 */
 
-//Code Here
+function myName () {
+  return 'Ciera';
+}
   
 
 
@@ -91,7 +93,9 @@ function welcome () {
   Now save the function definition of myName into a new variable called newMyName
 */
 
-//Code Here
+function newMyName() {
+  myName();
+}
 
 
 
@@ -99,7 +103,7 @@ function welcome () {
   Now alert the result of invoking newMyName
 */
 
-// Code Here
+alert(newMyName());
 
 
 
@@ -109,7 +113,11 @@ function welcome () {
   Create a function called outerFn which returns an anonymous function which returns your name.
 */
 
-//Code Here
+function outerFn() {
+  return function() {
+    return 'Ciera';
+  }
+}
 
 
 
