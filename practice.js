@@ -34,7 +34,7 @@ function isTyler(name) {
 */
 
 function getName() {
-  var message = prompt('What is your name?')
+  var message = prompt('What is your name?');
   if (message !== null) {
     return message;
   }
@@ -51,8 +51,10 @@ function getName() {
   Example: "Welcome, Bob Joe"
 */
 
-//Code Here
-
+function welcome () {
+  getName(); 
+  alert("Welcome, " + getName());
+}
 
 
 ////////// PROBLEM 4 //////////
