@@ -63,7 +63,7 @@ function welcome () {
   What is the difference between arguments and parameters?
 */
 
-//Answer Here
+//An argument is the value that is passed into a function. Parameters are more of a placeholder where values will be passed in.
 
 
 
@@ -73,7 +73,7 @@ function welcome () {
   What are all the falsy values in JavaScript and how do you check if something is falsy?
 */
 
-//Answer Here
+//The falsy values are: false, 0, '', "", null, undefined, and NaN. You can test if a value is falsy by testing it in a Boolean context.
 
 
 
